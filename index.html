@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from retrina.com/demo/arshia/arshia-plus/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Aug 2022 07:46:02 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Arshia Plus - Fully Responsive Personal Template</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Retrina Group" />
+    <!--  FavIcon  -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!--  Custom Style Css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+      body{
+        overflow-y: auto !important;
+      }
+      .area{
+        position: fixed;
+        top: 0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      .circles li:nth-child(1){
+        background-color: rgba(173 ,46 ,36,0.2);
+      }
+      .circles li:nth-child(2){
+        background-color: rgba(114 ,70 ,2 , 0.2);
+      }
+      .circles li:nth-child(3){
+        background-color: rgba(45 ,106 ,79, 0.2);
+      }
+      .circles li:nth-child(4){
+        background-color: rgba(26, 117, 159,0.2);
+      }
+      .circles li:nth-child(5){
+        background-color: rgba(173 ,46 ,36,0.2);
+      }
+      .circles li:nth-child(6){
+        background-color: rgba(114 ,70 ,2 , 0.2);
+      }
+      .circles li:nth-child(7){
+        background-color: rgba(45 ,106 ,79, 0.2);
+      }
+      .circles li:nth-child(8){
+        background-color: rgba(26, 117, 159,0.2);
+      }
+      .circles li:nth-child(9){
+        background-color: rgba(26, 117, 159,0.2);
+      }
+      .circles li:nth-child(10){
+        background-color: rgba(173 ,46 ,36,0.2);
+      }
+      @keyframes animate {
+      0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+      }
+      100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+      }
+    }
+      /*------------------------- Preloader -------------------------*/
+      #line-loader:before, #line-loader:after{
+        background-color: #e5e7ed;
+      }
+      .middle-line:before{
+        background-color: #000;
+      }
+      .middle-line:after{
+        background-color: #bbb;
+      }
+      /*------------------------- Preview -------------------------*/
+    .preview-page{
+      background: linear-gradient(#fff,#f3f3f3);
+      height: auto;
+    }
+
+    .preview-header{
+      padding: 2rem 0;
+    }
+    .preview-header h1{
+      font-size: 56px;
+      /* font-weight: 600; */
+    }
+    .preview-header h2{
+      font-size: 20px;
+    }
+    .preview-item{
+      position: relative;
+    }
+    .preview-item a{
+      transition: all 0.5s ease;
+      display: block;
+      position: relative;
+      border-radius: 10px;
+    }
+    .preview-item a:hover{
+      transform: scale(0.95);
+    }
+    .preview-image{
+      position: relative;
+      overflow: hidden;
+      border-radius: 0 10px 10px 10px;
+      box-shadow: 0 0 10px 8px rgb(100 100 100 / 10%);
+      transition: all 0.5s ease;
+    }
+    .preview-image img{
+      width: 100%;
+      height: 100%;
+      border-radius: 0 10px 10px 10px;
+      display: block;
+      z-index: 2;
+      position: relative;
+    }
+    .preview-item p{
+      font-size: 18px;
+      font-weight: 500;
+      position: absolute;
+      top: -46px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      left:0;
+      padding: 10px 15px 10px 15px;
+      color: #000;
+      z-index: 1;
+      background-color: #e5e7ed;
+      box-shadow: 0 0 10px 8px rgb(100 100 100 / 10%);
+      transition: all 0.5s ease;
+    }
+    .preview-header a{
+      background-color: #1ab394;
+      color: #fafafa;
+      padding: 12px 30px;
+      transition: all 0.3s ease;
+      border-radius: 1rem;
+    }
+    .preview-item a:hover .preview-image, .preview-item a:hover p {
+      box-shadow: 0 0 6px 1px rgb(0 0 0 / 20%);
+    }
+    </style>
+
+  </head>
+  <body class="preview-page">
+
+    <!-- Preloader -->
+    <div id="line-loader">
+      <div class="middle-line"></div>
+    </div>
+
+    <div class="preview-header text-center">
+      <h1 class="mb-4">Arshia Plus <sup style="color:red;">new</sup></h1>
+      <h2 class="text-muted mb-5">Bootstrap 5 Personal vCard Resume Template</h2>
+      <a href="https://1.envato.market/arshia-html5" class="purchase-button">Purchase Now!</a>
+    </div> 
+    <div class="preview-items">
+      <div class="container">
+        <div class="row gx-5 my-5">
+          <div class="col-12 col-lg-6 mt-5 pb-5 text-center preview-item">
+            <a href="webdesigner-dark.html">
+              <div class="preview-image">
+                <img src="assets/img/dark.jpg" alt="/">
+              </div> 
+              <p style="background-color: #232324;color: #fff;">Dark <sup style="color:red;">new</sup></p>
+            </a>
+          </div>
+          <div class="col-12 col-lg-6 mt-5 pb-5 text-center preview-item">
+            <a href="webdesigner-colorfull.html">
+              <div class="preview-image">
+                <img src="assets/img/preview5.jpg" alt="/">
+              </div> 
+              <p>Colorfull <sup style="color:red;">new</sup></p>
+            </a>
+          </div>
+          <div class="col-12 col-lg-6 mt-5 pb-5 text-center preview-item">
+            <a href="webdesigner.html">
+              <div class="preview-image">
+                <img src="assets/img/preview2.png" alt="/">
+              </div> 
+              <p>Light <sup style="color:red;">new</sup></p>
+            </a>
+          </div>
+          <div class="col-12 col-lg-6 mt-5 pb-5 text-center preview-item">
+            <a href="javascript:void(0);">
+              <div class="preview-image">
+                <img src="assets/img/preview4.jpg" alt="/">
+                <span style="font-size: 300%; color: #000; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">Coming soon</span>
+              </div> 
+              <p style="background-color: #fefefe;">Coming Soon</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     <!--  Background Shapes Start  -->
+     <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="d-none d-md-block"></li>
+        <li></li>
+        <li></li>
+        <li class="d-none d-md-block"></li>
+      </ul>
+    </div>
+    <!--  Background Shapes End  -->
+
+    <footer class="py-4 text-center">
+      <div class="container">
+          <p class="mb-0">Copyright © 2021. Template has been designed by <a class="base-color" href="https://retrina.com/" target="_blank">Retrina</a></p>
+      </div>
+    </footer>
+    <!-- Mouase Magic Cursor Start -->
+    <div class="m-magic-cursor mmc-outer"></div>
+	  <div class="m-magic-cursor mmc-inner"></div>
+    <!-- Mouase Magic Cursor End -->
+
+    <!--  JavaScripts  -->
+    <!--  Jquery 3.4.1  -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!--  Bootstrap Js  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+      /*-------------------------  Preloader  -------------------------*/
+      var preloader = $('#line-loader');
+      setTimeout(function() {
+          preloader.addClass('preloaded');
+      }, 800);
+      setTimeout(function() {
+          preloader.remove();
+      }, 2000);
+
+    </script>
+  </body>
+
+<!-- Mirrored from retrina.com/demo/arshia/arshia-plus/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Aug 2022 07:46:04 GMT -->
+</html>
